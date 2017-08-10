@@ -1,0 +1,22 @@
+#js-fezdesc .fez-big-logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto 20px;
+  background-image: url(../images/fez-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 330px;
+  height: 150px;
+}
+#js-fezdesc h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+svg {
+  width: 32px;
+  height: 32px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4L2JpZy1sb2dvLmxlc3MiLCJpbmRleC5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFdBQVk7RUFDUixrQkFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLDZDQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtFQUNBLGdCQUFBO0VBQ0EsYUFBQTs7QUFHSixXQUFZO0VBQ1gsa0JBQUE7RUFDQyxnQkFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTs7QUNkRjtFQUNJLFdBQUE7RUFDQSxZQUFBIiwic291cmNlc0NvbnRlbnQiOlsiI2pzLWZlemRlc2MgLmZlei1iaWctbG9nbyB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbjogMCBhdXRvIDIwcHg7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC4uLy4uL2ltYWdlcy9mZXotbG9nby5wbmcpO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBtYXgtd2lkdGg6IDMzMHB4O1xuICAgIGhlaWdodDogMTUwcHg7XG59XG5cbiNqcy1mZXpkZXNjIGgzIHtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXdlaWdodDogMzAwO1xuICBmb250LXNpemU6IDMycHg7XG4gIG1hcmdpbi1ib3R0b206IDMwcHg7XG59XG4iLCJAaW1wb3J0IFwiaW5kZXgvYmlnLWxvZ28ubGVzc1wiO1xuc3ZnIHtcbiAgICB3aWR0aDogMzJweDtcbiAgICBoZWlnaHQ6IDMycHg7XG59XG4iXSwiZmlsZSI6ImluZGV4LmNzcyJ9 */

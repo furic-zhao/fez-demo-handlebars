@@ -4,7 +4,7 @@ import jumbotronTemp from './jumbotron.hbs'
 
 import Service from './service'
 
-import urlParam from 'public/utils/url-param'
+import urlParam from 'views/public/utils/url-param'
 
 import $ from 'jquery'
 
@@ -12,7 +12,7 @@ export default ($box = $("body")) => {
     urlParam('id').then((data) => {
         return Service.renderData(data)
     }).then((data) => {
-    	console.log(data)
+        console.log(data)
         $box.html(temp(data))
         $("#js-jumbotron").html(jumbotronTemp(data))
     })

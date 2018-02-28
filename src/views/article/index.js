@@ -1,9 +1,9 @@
 import $ from 'jquery'
 
-import header from 'public/module/header'
+import header from 'views/public/module/header'
 header($("#js-header"))
 
-import footer from 'public/module/footer'
+import footer from 'views/public/module/footer'
 footer($("#js-footer"))
 
 // import jumbotron from './module/jumbotron'

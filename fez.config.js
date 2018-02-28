@@ -4,19 +4,16 @@
  * ================================== */
 
 export default {
-
-  browserify: {
-    shim: [{
-      import: "$",
-      from: "jquery"
-    }, {
-      import: "Q",
-      from: "q"
-    }]
+  webpack: {
+    config: {
+      externals: {
+        jquery: 'jQuery',
+        q: 'Q'
+      }
+    }
   },
   useInject: {
-    bower: {
-      available: true,
+    vendor: {
       js: [{
         target: "a-vendor-jquery-bootstrap.js",
         contain: ["**/jquery.js", "**/bootstrap.js"]
@@ -25,13 +22,7 @@ export default {
         target: "vendor-bootstrap-fontawesome.css",
         contain: ["**/bootstrap.css", "**/font-awesome.css"]
       }]
-    },
-    lib: {
-      available: true,
-      css: "*common*",
-      js: []
-    },
-    views: true
+    }
   },
   svgSymbol: {
     available: true,

@@ -25,7 +25,6 @@ export default {
     }
   },
   svgSymbol: {
-    available: true,
-    autoInject: true
+    available: true
   }
 }

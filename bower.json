@@ -1,7 +1,7 @@
 {
-  "name": "FEZ DEMO",
+  "name": "fez-demo-handlebars",
   "authors": [
-    "furic <furic@qq.com>"
+    "furic-zhao"
   ],
   "description": "Bower第三方工具库自动化管理",
   "main": "",

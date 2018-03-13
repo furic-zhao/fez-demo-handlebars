@@ -166,7 +166,7 @@ source libraries in the world.</p>
 let index = {
     fezdesc: "FEZ 前端模块化工程开发框架",
     jumbotron: {
-        title: "Hello, FEZ!",
+        title: "Hello, FEZ & handlebars!",
         content: "这是一个使用 FEZ 构建的前端模块化开发示例，演示了基本的模块开发结构，使用 handlebars 模板渲染数据。",
         button: {
             name: `<i class="fa fa-github-alt"></i> GitHub`,
@@ -197,7 +197,7 @@ let common = {
         href: "list.html"
     }],
 
-    footerText: "© 2017 FEZ 前端模块化工程开发框架 Created by Furic.zhao"
+    footerText: "©2017-2018 FEZ前端模块化工程开发框架 Created by Furic.zhao"
 }
 
 export default {
